@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Chocoloco</title>
+
+    <!-- Link to the main stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive; /* Change to Comic Sans MS */
+            background-color: #87CEEB; /* Cornsilk */
+            color: #000; /* Black */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-image: url('banner.jpg'); /* Replace with an enticing banner image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 50px;
+            text-align: center;
+        }
+
+        #top-section {
+            background-color: #FFD700; /* Gold */
+            padding: 20px;
+            text-align: center;
+        }
+
+        #about-content {
+            padding: 50px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #000080; /* Navy Blue */
+            font-family: 'Comic Sans MS', cursive; /* Change to Comic Sans MS */
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #fff; /* White */
+            background-color: #000080; /* Navy Blue */
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #000;
+            margin-bottom: 15px;
+        }
+
+        #back-button {
+            background-color: #FFD700; /* Yellow */
+            color: #fff;
+            padding: 8px 15px; /* Smaller size */
+            border: none;
+            border-radius: 5px;
+            font-size: 14px; /* Smaller font size */
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #back-button:hover {
+            background-color: #FFA500; /* Darker shade of yellow on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div id="top-section">
+    <h1>Chocoloco</h1>
+    <p>Welcome to Jash's chocolate wonderland!</p>
+</div>
+
+<div id="about-content">
+    <h2>Meet Jash, the Chocolate Magician</h2>
+    <h1>Discover the Majic of Jash's Chocolates</h1>
+    <p>Hey guys! I'm Jash, the kid with a chocolate-filled heart, and I'm here to tell you about the most amazing chocolates you've ever seen! 🚀</p>
+    <p>Picture this: a land where chocolates grow on trees, and rivers flow with gooey caramel (just like in WILLY WONKA'S WORLD!) Well, that's the magical world of Chocoloco! Each chocolate bar that I make is like a tiny droplet of heaven.</p>
+    <p>From the happiest milk chocolates to the mysterious dark ones, every bite is a burst of yumminess that'll make your taste buds throw a sweet party. And guess what? The chocolate fairies told me they're hosting this party just for you!</p>
+    <p>So, grab your chocolate passport and join me on this sweet adventure. 🍫✨</p>
+    <button id="back-button" onclick="goBack()">Back</button>
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>
